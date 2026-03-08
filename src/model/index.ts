@@ -59,3 +59,9 @@ export class RecordsDragGroupRect {
     Object.assign(this, props);
   }
 }
+
+export interface User{
+  userId:string;
+  userName:string;
+  createTime:any
+}
