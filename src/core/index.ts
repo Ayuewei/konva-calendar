@@ -118,6 +118,7 @@ export class CanvasKonvaCalendar {
     this.registerEvents();
     this.drawHoverGroup();
     this.drawCalendar(this.month, this.year);
+    console.log('starting')
   }
 
   private initDate(date?: Date): void {
